@@ -1,7 +1,7 @@
 MCODE Cytoscape App 2.0
 ===============================
 
-MCODE is a `Cytoscape <https://cytoscape.org/>` app that finds clusters (highly interconnected regions) in a network.
+MCODE is a `Cytoscape <https://cytoscape.org/>`_ app that finds clusters (highly interconnected regions) in a network.
 Clusters mean different things in different types of networks.
 For instance, clusters in a protein-protein interaction network are often protein complexes and parts of pathways,
 while clusters in a protein similarity network represent protein families.
@@ -19,7 +19,7 @@ Current features include:
 
 Currently, MCODE does not provide any statistical score on the resulting clusters
 but can be used as a discovery tool in network analysis.
-Please see the `MCODE paper <https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-4-2>` for more information.
+Please see the `MCODE paper <https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-4-2>`_ for more information.
 
 
 Feature Requests and Reporting Bugs

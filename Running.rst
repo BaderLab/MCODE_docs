@@ -9,7 +9,7 @@ MCODE is an extension for Cytoscape and can only be accessed through Cytoscape:
 
 .. _start_mcode:
 
-1. Start Cytoscape
+1. Start Cytoscape.
 2. Import a network or open a Cytoscape session that has one or more networks.
 3. Make sure a network is selected in Cytoscape's.
 4. Select the menu option **Apps > MCODE**, which should open MCODE's New Analysis dialog.
