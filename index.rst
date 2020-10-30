@@ -1,5 +1,6 @@
+=======================
 MCODE Cytoscape App 2.0
-===============================
+=======================
 
 .. warning::  This doc is a work in progress. In the meantime, please refer to the `old user manual <http://baderlab.org/Software/MCODE/UsersManual>`_.
 
@@ -41,7 +42,7 @@ To Report a bug:
 
 
 Cite MCODE
-------------------
+----------
 
 . . BMC Bioinformatics. 2003 Jan 13;4:2. doi: 10.1186/1471-2105-4-2. Epub 2003 Jan 13. PMID: 12525261; PMCID: PMC149346.
 
@@ -58,6 +59,7 @@ Cite MCODE
 
    Installation
    Running
+   UserInterface
    Interpreting
    Tuning
    Exploring
