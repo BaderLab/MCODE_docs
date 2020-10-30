@@ -1,10 +1,6 @@
 MCODE Cytoscape App 2.0
 ===============================
 
-.. _The EnrichmentMap Protocol: https://baderlab.github.io/Cytoscape_workflows/EnrichmentMapPipeline/index.html
-
-|screenshot1| |screenshot2|
-
 MCODE is a `Cytoscape <https://cytoscape.org/>` app that finds clusters (highly interconnected regions) in a network.
 Clusters mean different things in different types of networks.
 For instance, clusters in a protein-protein interaction network are often protein complexes and parts of pathways,
@@ -24,13 +20,6 @@ Current features include:
 Currently, MCODE does not provide any statistical score on the resulting clusters
 but can be used as a discovery tool in network analysis.
 Please see the `MCODE paper <https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-4-2>` for more information.
-
-
-.. |screenshot1| image:: images/index/screenshot_1.png
-   :width: 45%
-
-.. |screenshot2| image:: images/index/screenshot_2.png
-   :width: 45%
 
 
 Feature Requests and Reporting Bugs
