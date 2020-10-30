@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# EnrichmentMap documentation build configuration file, created by
-# sphinx-quickstart on Tue Jan 16 16:20:43 2018.
+# MCODE documentation build configuration file
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -48,7 +47,7 @@ master_doc = 'index'
 # General information about the project.
 project = 'MCODE'
 copyright = '2020 Memorial Sloan-Kettering Cancer Center'
-author = 'Gary Bader, Christian Lopes, Vuk Pavlovic'
+author = 'Gary Bader, Vuk Pavlovic, Christian Lopes'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -99,7 +98,8 @@ html_logo = 'images/mcode_logo.png'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#
+#html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -144,8 +144,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'EnrichmentMap.tex', 'EnrichmentMap Documentation',
-     'Ruth Isserlin, Mike Kucera, Christian Lopes', 'manual'),
+    (master_doc, 'MCODE.tex', 'MCODE Documentation',
+     'Gary Bader, Vuk Pavlovic, Christian Lopes', 'manual'),
 ]
 
 
@@ -154,7 +154,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'enrichmentmap', 'EnrichmentMap Documentation',
+    (master_doc, 'mcode', 'MCODE Documentation',
      [author], 1)
 ]
 
@@ -165,7 +165,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'EnrichmentMap', 'EnrichmentMap Documentation',
-     author, 'EnrichmentMap', 'One line description of project.',
+    (master_doc, 'MCODE', 'MCODE Documentation',
+     author, 'MCODE', 'User manual for the MCODE Cytoscape app.',
      'Miscellaneous'),
 ]

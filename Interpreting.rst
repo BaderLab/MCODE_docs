@@ -8,8 +8,6 @@ MCODE Panel
    :width: 50%
    :align: right
 
-.. _mcode_panel:
-
 The MCODE Panel is added to Cytoscape's **Control Panel** whenever the MCODE app is opened (menu option **Apps > MCODE**).
 
 .. note:: The first time MCODE is opened after installing the app or starting Cytoscape,
