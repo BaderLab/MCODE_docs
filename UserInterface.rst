@@ -14,7 +14,7 @@ The MCODE Panel is added to Cytoscape's **Control Panel** whenever the MCODE app
 and it contains three main sections:
 
   1. Toolbar
-  2. Cluster List
+  2. Cluster Browser
   3. Footer
 
 .. note:: The first time MCODE is opened after installing the app or starting Cytoscape,
@@ -49,8 +49,8 @@ Use the toolbar components to add and manage your analysis results:
    Menu that provides additional options, such as exporting the results and creating a network from the selected cluster.
 
 
-Cluster List
-------------
+Cluster Browser
+---------------
 
 This section lists the clusters which were found for the selected result.
 
