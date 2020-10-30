@@ -1,6 +1,8 @@
 MCODE Cytoscape App 2.0
 ===============================
 
+.. warning::  This doc is a work in progress. In the meantime, please refer to the `old user manual <http://baderlab.org/Software/MCODE/UsersManual>`_.
+
 MCODE is a `Cytoscape <https://cytoscape.org/>`_ app that finds clusters (highly interconnected regions) in a network.
 Clusters mean different things in different types of networks.
 For instance, clusters in a protein-protein interaction network are often protein complexes and parts of pathways,
