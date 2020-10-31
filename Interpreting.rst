@@ -1,3 +1,5 @@
+.. _interpreting_results:
+
 ================================
 Getting and Interpreting Results
 ================================
@@ -64,4 +66,74 @@ This section covers some of the basic steps of running MCODE on a network.
 4. Browse Your Results
 ----------------------
 
-  If the analysis finds clusters, the result will be added to MCODE's main panel as "1 - *NETWORK_NAME*".
+  If the analysis finds clusters, the result will be added to MCODE's main panel as ``result_number - network_name`` (e.g. "1 - galFiltered.sif").
+
+4.1 Cluster Browser
+-------------------
+
+  - The *Cluster Browser* entries are ordered from highest to lowest cluster's computed *score*:
+
+    .. figure:: images/cluster_entry.png
+       :width: 50%
+       :align: center
+
+    a) **Rank**: Just a number based on the cluster's computed score, used to identify the clusters within each result.
+
+      - For example, *Cluster 1* is the highest ranked cluster in a given result, and thus, at the top of the list.
+
+    b) **Cluster**: The graphical representation of the cluster.
+
+      - Cluster members are coloured red.
+      - The highest scoring node in the cluster is called the **Seed**. It is the node from which the cluster was derived and is represented as a square.
+      - Other cluster members are circles.
+      - Edges, representing interactions for example, are blue.
+      - Edge directionality is represented by arrows.
+
+    c) **Size Threshold**: Slider that allows you to expand or reduce the cluster based on the node score.
+
+    d) **Score**: The cluster's computed score.
+
+    e) **Nodes** and **Edges**: A simple enumeration of the cluster's members and their interconnections.
+
+4.2. Network View
+-----------------
+
+  If the network being analyzed has a view, you can apply the *MCODE Style* by clicking MCODE's **Options** button and selecting the corresponding menu item.
+
+  .. figure:: images/apply_mcode_style_menu.png
+     :width: 75%
+     :align: center
+
+  This style utilizes two MCODE generated *Node* columns:
+
+    - **Node Status**: Node *shapes* indicate the cluster status of the nodes.
+
+      - *Square*: seed (highest scoring node in the cluster)
+      - *Circle*: clustered
+      - *Diamond*: unclustered
+
+    - **Score**: Node *colors* represent the node score.
+
+      - A range from *black* to *red* indicates the MCODE computed node score (lowest to highest, respectively).
+      - *White* indicates a score of zero.
+
+    .. figure:: images/mcode_style_applied.png
+       :width: 75%
+       :align: center
+
+    .. note:: The **Clusters** column is an additional list type attribute that indicates which cluster the node belongs to.
+              The *MCODE Style* does not use this column, but it exists should you need it.
+
+    .. note:: If the **Fluff** parameter (discussed in the :ref:`fine-tuning` section) is turned on,
+              some nodes may belong to more than one cluster.
+
+4.3. Cluster Selection
+----------------------
+
+  - The cluster entries in the *Cluster Browser* are selectable and will automatically select the corresponding nodes in the network view (if it exists).
+    If no network view is available, the selected nodes can be reviewed in Cytoscape's **Node Table**.
+  - Also, the cluster exploration panel will appear below the cluster entries titled "Explore: Cluster [Rank]".
+    This panel can be collapsed for now -- its use will be discussed in the :ref:`fine-tuning` section of this Manual.
+
+  .. figure:: images/cluster_selection.png
+     :align: center

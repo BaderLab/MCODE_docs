@@ -23,12 +23,14 @@ and it contains three main sections:
           Either way, the *MCODE Panel* will show up right after the *New Analysis Dialog* is closed.
 
 
+.. _toolbar:
+
 Toolbar
 -------
 
 Use the toolbar components to add and manage your analysis results:
 
-.. image:: images/toolbar.png
+.. figure:: images/toolbar.png
    :width: 40%
    :align: center
 
@@ -54,7 +56,7 @@ Cluster Browser
 
 This section lists the clusters which were found for the selected result.
 
-.. image:: images/results.png
+.. figure:: images/results.png
    :width: 40%
    :align: center
 
@@ -62,7 +64,7 @@ This section lists the clusters which were found for the selected result.
 Footer
 ------
 
-.. image:: images/footer.png
+.. figure:: images/footer.png
    :width: 40%
    :align: center
 
