@@ -16,10 +16,13 @@ Clusters can be output as sub or child-networks of the original network by selec
 Export as Text
 --------------
 
-MCODE results can be exported to a plain text file by selecting the **Export Result** option
+MCODE results can be exported to a time-stamped text file by selecting the **Export Result** option
 located on the MCODE **Options** menu (see :ref:`toolbar` section).
 
-Clusters are summarized in a time-stamped tab-delimited consisting of:
+.. figure:: images/result_export_file.png
+   :align: center
+
+**Clusters** are summarized in a tab-delimited format consisting of:
 
   - ``Cluster``: rank
   - ``Score (Density*#Nodes)``: cluster score (density multiplied by the number of members)
@@ -27,7 +30,7 @@ Clusters are summarized in a time-stamped tab-delimited consisting of:
   - ``Edges``: number of edges
   - ``Node IDs``: cluster member IDs (comma-delimited)
 
-The parameters used in scoring and finding the exported result are included in the file as well for future reference:
+The **parameters** used in scoring and finding the exported result are included in the file as well for future reference:
 
   - ``Network Scoring``:
 
@@ -42,6 +45,3 @@ The parameters used in scoring and finding the exported result are included in t
     - ``Fluff``
     - ``K-Core``
     - ``Max. Depth from Seed``
-
-.. figure:: images/result_export_file.png
-   :align: center
