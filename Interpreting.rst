@@ -124,9 +124,6 @@ This section covers some of the basic steps of running MCODE on a network.
     .. note:: The **Clusters** column is an additional list type attribute that indicates which cluster the node belongs to.
               The *MCODE Style* does not use this column, but it exists should you need it.
 
-    .. note:: If the **Fluff** parameter (discussed in the :ref:`fine-tuning` section) is turned on,
-              some nodes may belong to more than one cluster.
-
 4.3. Cluster Selection
 ----------------------
 

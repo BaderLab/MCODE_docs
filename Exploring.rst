@@ -20,8 +20,12 @@ The slider scale ranges from **Min** to **Max** and has an 'origin' marker (^) f
 **Node Score Cutoff**, which is the most influential cluster size determinant is controlled by the slider.
 As such, the initial position marker indicates the **Node Score Cutoff** value originally set in the :ref:`cluster-finding-params` section.
 
+.. figure:: images/size_threshold_slider.png
+   :width: 50%
+   :align: center
+
 When moving the slider, the **Node Score Cutoff** is set to 0 at Min and 100 at Max,
-however there are several notable differences between the functions of the **Size Threshold** slider and the **Node Score Cutoff** parameter (*Cluster Finding*).
+however there are several notable differences between the functions of the **Size Threshold** slider and the **Node Score Cutoff** parameter (*Cluster Finding*):
 
   1. During exploration, the cluster is reevaluated without the requirements of satisfying the **K-Core** parameter.
      Thus, moving the slider leftwards of the initial position allows the cluster to be reduced to only the seed node.
@@ -76,6 +80,10 @@ The Enumerator provides a numerical summary of node attribute values possessed b
 It is meant to inform the user of the cluster's contents and aid in determining the cluster's functional relevance.
 All node attributes that are available for the loaded network are listed in the select box.
 When an attribute selection is made in one exploration, it persists for all cluster explorations within the given result.
+
+.. figure:: images/node_attribute_enumerator.png
+   :width: 75%
+   :align: center
 
 The table below the select box has two columns:
 

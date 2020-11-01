@@ -50,6 +50,9 @@ Use the toolbar components to add and manage your analysis results:
 
    Menu that provides additional options, such as exporting the results and creating a network from the selected cluster.
 
+   .. figure:: images/options_menu.png
+      :width: 75%
+      :align: center
 
 Cluster Browser
 ---------------

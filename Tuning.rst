@@ -17,6 +17,9 @@ This is only an overview -- for detailed parameter information, consult the `MCO
     - Node Status (``n``)
     - Clusters (``n``)
 
+    .. figure:: images/mcode_columns.png
+       :align: center
+
 .. note:: For efficiency purposes, MCODE automatically determines which portion of the algorithm needs to be run based on the user's parameter modifications.
 
           - For instance, if the scoring parameters are altered, the network will be re-scored,
